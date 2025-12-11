@@ -1,0 +1,1 @@
+# moodle-secure-pdf-helper
