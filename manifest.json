@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Fuck safe pdfs",
+  "version": "0.1.0",
+  "description": "Ive had enough. Fuck safe pdfs on eportal -> they suck",
+
+  "content_scripts":[
+    {
+      "matches": ["<all_urls>"],
+      "js":["unsafe-pdf.js"]
+    }
+  ]
+}
